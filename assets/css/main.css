@@ -3301,6 +3301,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+
+		-webkit-box-shadow: 0px 12px 46px -20px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 12px 46px -20px rgba(0,0,0,0.75);
+box-shadow: 0px 12px 46px -20px rgba(0,0,0,0.75);
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
