@@ -161,7 +161,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: inherit;
 	}
 
@@ -3869,3 +3869,164 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.projects-full {
+    /* background: gold; */
+    /* margin: 20px 20px 20px 20px; */
+    
+    /* width: 70%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* font-family: 'EB Garamond', serif; */
+    /* min-height: 50px; */
+}
+
+.audify {
+    width: 33%;
+}
+
+.audify a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.audify-logo {
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%); */
+    background-image: url(../../images/audify.png);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 12px;
+    width: 60px;
+    height: 60px;
+    background-size: 80%;
+	transition: 0.3s;
+	background: red;
+	/* align-self: center; */
+    
+}
+
+.audify a:hover .audify-logo {
+    /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
+    /* filter: grayscale(0%); */
+        /* background-image: url(./assets/images/audify-green.png); */
+        transition: 0.3s;
+
+}
+
+.audify-title {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.audify-description {
+    width: 80%;
+    text-align: center;
+}
+
+.dispersion {
+    width: 33%;
+}
+
+.dispersion a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispersion-logo {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/dispersion.png);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 12px;
+    width: 60px;
+    height: 60px;
+    background-size: 80%;
+    transition: 0.3s;
+    
+}
+
+.dispersion a:hover .dispersion-logo {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+        /* background-image: url(./assets/images/dispersion.png); */
+        transition: 0.3s;
+
+}
+
+.dispersion-title {
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.dispersion-description {
+    width: 80%;
+    text-align: center;
+}
+
+.codeup {
+    width: 33%;
+}
+
+.codeup a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.codeup-logo {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/codeup.png);
+    background-repeat: no-repeat;
+    background-position-x: -3px;
+    background-position-y: 7px;
+    /* background: red; */
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+    transition: 0.3s;
+    
+}
+
+.codeup a:hover .codeup-logo {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+        /* background-image: url(./assets/images/codeup.png); */
+        transition: 0.3s;
+
+}
+
+.codeup-title {
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.codeup-description {
+    width: 80%;
+    text-align: center;
+}
