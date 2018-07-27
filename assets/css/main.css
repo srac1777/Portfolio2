@@ -2323,8 +2323,8 @@ input, select, textarea {
 	}
 		.icon.major.ruby {
 			background-image: url(../../images/ruby.png);
-			height: 200px;
-			width: 200px;
+			height: 60px;
+			width: 60px;
 			background-size: 80%;
 			background-repeat: no-repeat;
 			background-position-x: 15px;
@@ -2335,8 +2335,8 @@ input, select, textarea {
 
 		.icon.major.rails {
 			background-image: url(../../images/rails.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 80%;
 			background-repeat: no-repeat;
 			background-position-x: 20px;
@@ -2347,8 +2347,8 @@ input, select, textarea {
 
 		.icon.major.js {
 			background-image: url(../../images/js.jpg);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 60%;
 			background-repeat: no-repeat;
 			background-position-x: 41px;
@@ -2359,8 +2359,8 @@ input, select, textarea {
 
 		.icon.major.react {
 			background-image: url(../../images/react.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 110%;
 			background-repeat: no-repeat;
 			background-position-x: -10px;
@@ -2371,8 +2371,8 @@ input, select, textarea {
 
 		.icon.major.redux {
 			background-image: url(../../images/redux.svg);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 60%;
 			background-repeat: no-repeat;
 			background-position-x: 40px;
@@ -2383,8 +2383,8 @@ input, select, textarea {
 
 		.icon.major.html {
 			background-image: url(../../images/html5.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 50%;
 			background-repeat: no-repeat;
 			background-position-x: 50px;
@@ -2395,8 +2395,8 @@ input, select, textarea {
 
 		.icon.major.css {
 			background-image: url(../../images/css3.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 50%;
 			background-repeat: no-repeat;
 			background-position-x: 50px;
@@ -2407,8 +2407,8 @@ input, select, textarea {
 
 		.icon.major.firebase {
 			background-image: url(../../images/firebase.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 50%;
 			background-repeat: no-repeat;
 			background-position-x: 50px;
@@ -2419,8 +2419,8 @@ input, select, textarea {
 
 		.icon.major.sql {
 			background-image: url(../../images/sql.png);
-			height: 200px;
-			width: 200px;
+			height: 100px;
+			width: 100px;
 			background-size: 50%;
 			background-repeat: no-repeat;
 			background-position-x: 50px;
@@ -3921,7 +3921,7 @@ input, select, textarea {
     height: 60px;
     background-size: 80%;
 	transition: 0.3s;
-	background: red;
+	/* background: red; */
 	/* align-self: center; */
     
 }
@@ -3935,7 +3935,7 @@ input, select, textarea {
 }
 
 .audify-title {
-    font-size: 22px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -3955,8 +3955,6 @@ input, select, textarea {
 }
 
 .dispersion-logo {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
     background-image: url(../../images/dispersion.png);
     background-repeat: no-repeat;
     background-position-x: 5px;
@@ -3969,8 +3967,6 @@ input, select, textarea {
 }
 
 .dispersion a:hover .dispersion-logo {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
         /* background-image: url(./assets/images/dispersion.png); */
         transition: 0.3s;
 
@@ -3998,8 +3994,6 @@ input, select, textarea {
 }
 
 .codeup-logo {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
     background-image: url(../../images/codeup.png);
     background-repeat: no-repeat;
     background-position-x: -3px;
@@ -4013,8 +4007,6 @@ input, select, textarea {
 }
 
 .codeup a:hover .codeup-logo {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
         /* background-image: url(./assets/images/codeup.png); */
         transition: 0.3s;
 
