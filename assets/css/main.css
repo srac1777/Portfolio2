@@ -2321,6 +2321,113 @@ input, select, textarea {
 	.icon.major {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
+		.icon.major.ruby {
+			background-image: url(../../images/ruby.png);
+			height: 200px;
+			width: 200px;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position-x: 15px;
+			background-position-y: 30px;
+			
+
+		}
+
+		.icon.major.rails {
+			background-image: url(../../images/rails.png);
+			height: 200px;
+			width: 200px;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position-x: 20px;
+			background-position-y: 60px;
+			
+
+		}
+
+		.icon.major.js {
+			background-image: url(../../images/js.jpg);
+			height: 200px;
+			width: 200px;
+			background-size: 60%;
+			background-repeat: no-repeat;
+			background-position-x: 41px;
+			background-position-y: 40px;
+			
+
+		}
+
+		.icon.major.react {
+			background-image: url(../../images/react.png);
+			height: 200px;
+			width: 200px;
+			background-size: 110%;
+			background-repeat: no-repeat;
+			background-position-x: -10px;
+			background-position-y: 20px;
+			
+
+		}
+
+		.icon.major.redux {
+			background-image: url(../../images/redux.svg);
+			height: 200px;
+			width: 200px;
+			background-size: 60%;
+			background-repeat: no-repeat;
+			background-position-x: 40px;
+			background-position-y: 40px;
+			
+
+		}
+
+		.icon.major.html {
+			background-image: url(../../images/html5.png);
+			height: 200px;
+			width: 200px;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position-x: 50px;
+			background-position-y: 30px;
+			
+
+		}
+
+		.icon.major.css {
+			background-image: url(../../images/css3.png);
+			height: 200px;
+			width: 200px;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position-x: 50px;
+			background-position-y: 30px;
+			
+
+		}
+
+		.icon.major.firebase {
+			background-image: url(../../images/firebase.png);
+			height: 200px;
+			width: 200px;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position-x: 50px;
+			background-position-y: 30px;
+			
+
+		}
+
+		.icon.major.sql {
+			background-image: url(../../images/sql.png);
+			height: 200px;
+			width: 200px;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position-x: 50px;
+			background-position-y: 30px;
+			
+
+		}
 
 		.icon.major:before {
 			border-color: rgba(255, 255, 255, 0.35);
