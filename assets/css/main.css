@@ -4031,3 +4031,97 @@ input, select, textarea {
     width: 80%;
     text-align: center;
 }
+
+
+
+
+.links {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 50px; */
+    
+    margin-bottom: 10px;
+
+}
+
+.empty {
+    height: 20px;
+}
+
+.github {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/github.png);
+    background-size: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.github:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    /* background-image: url(./assets/images/github.png); */
+    transition: 0.3s;
+
+}
+
+.linkedin {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/linkedin.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+
+}
+
+.linkedin:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    /* background-image: url(./assets/images/linkedin.png); */
+    transition: 0.3s;
+
+}
+
+.mailto {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/gmail.png);
+    background-size: 100%;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+
+}
+.mailto:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    /* background-image: url(./assets/images/gmail.png); */
+    transition: 0.3s;
+
+}
+
+.resume {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url(../../images/resume.png);
+    background-position-x: -2px;
+    background-size: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+
+}
+.resume:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    /* background-image: url(./assets/images/resume.png); */
+    transition: 0.3s;
+
+}
