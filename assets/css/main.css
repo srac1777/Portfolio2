@@ -2321,28 +2321,14 @@ input, select, textarea {
 	.icon.major {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
-		.icon.major.ruby {
-			background-image: url(../../images/ruby.png);
+		.icon.major.python {
+			background-image: url(../../images/python.png);
 			height: 100px;
 			width: 100px;
 			background-size: 70%;
 			background-repeat: no-repeat;
 			background-position-x: 15px;
 			background-position-y: 20px;
-			
-
-		}
-
-		.icon.major.rails {
-			background-image: url(../../images/rails.png);
-			height: 100px;
-			width: 100px;
-			background-size: 80%;
-			background-repeat: no-repeat;
-			background-position-x: 10px;
-			background-position-y: 30px;
-			
-
 		}
 
 		.icon.major.js {
@@ -2353,8 +2339,6 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-position-x: 21px;
 			background-position-y: 20px;
-			
-
 		}
 
 		.icon.major.react {
